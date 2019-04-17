@@ -111,7 +111,7 @@ void draw() {
     for(int i=0;i<8;i++){
       image(stone1,i*grid,(i+2)*grid);
     }
-    ////9-16  
+    //9-16  
     for(int y=10;y<18;y++){
       for(int x=0;x<10;x++){         
       if(floor((y+1)/2)%2==0){
